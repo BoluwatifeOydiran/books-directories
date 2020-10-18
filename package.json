@@ -1,0 +1,27 @@
+{
+  "name": "devbooks",
+  "version": "1.0.0",
+  "description": "This is a project about books that are recomended by developers for developers",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app"
+  },
+  "author": "Code Weezard",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "cookie-parser": "~1.4.4",
+    "ejs": "^2.6.2",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.10.4",
+    "morgan": "^1.9.1"
+  },
+  "devDependencies": {},
+  "keywords": [
+    "books",
+    "devlopers",
+    "ebooks",
+    "pdf"
+  ]
+}

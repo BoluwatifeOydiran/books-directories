@@ -1,0 +1,22 @@
+<%- include("./partials/head") %>
+
+<body>
+  <%- include("./partials/nav") %>
+  <main class="collections">
+    <% if (books.length>0) { %> <% books.forEach(book => { %>
+    <div class="book">
+      <img
+        src="./images/Screenshot (162).png"
+        alt="books image"
+        class="book-image"
+      />
+      <div class="text-wrapper">
+        <h1 class="book-author"><%- book.author %></h1>
+        <p class="book-brief"><%- book.summary %></p>
+        <a href="<% book._id %> ">read book brief</a>
+      </div>
+    </div>
+    <% }) %> <% } %>
+  </main>
+  <%- include("./partials/footer") %>
+</body>
